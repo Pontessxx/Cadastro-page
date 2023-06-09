@@ -81,3 +81,13 @@ body {
     color: #fff;
     font-weight: 500;
 }
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: var(--image);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}

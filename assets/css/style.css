@@ -5,11 +5,13 @@
     font-family: 'Poppins', sans-serif;
 }
 :root {
-    --primary-color: #0606fa4d;
+    --primary-color: #6a6a9b;
+    --image: #8282b3;
     --text: #fff;
 }
 body.dark-theme{
-    --primary-color: #0c0ce94d;
+    --primary-color: #cdaaf5;
+    --image: #d1b5f1;
     --text: #000;
 }
 body {
@@ -20,4 +22,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--image);
 }

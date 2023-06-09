@@ -31,8 +31,8 @@ themeButton.addEventListener('click', () => {
     var currentImage = imgElement.getAttribute("src");
     var newImage;
   
-    if (currentImage === "assets/img/image-ligth.svg") {
-      newImage = "assets/img/image-dark.svg";
+    if (currentImage === "assets/img/image-dark.svg") {
+      newImage = "assets/img/image-ligth.svg";
     } else {
       newImage = "assets/img/image-ligth.svg";
     }

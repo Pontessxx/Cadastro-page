@@ -5,6 +5,15 @@
     font-family: 'Poppins', sans-serif;
 }
 :root {
+    --primary-color: #cdaaf5;
+    --form-button: #cdaaf5;
+    --form-button-hover: #ab8ecc;
+    --form-input: #f7f7f7;
+    --image: #d1b5f1;
+    --form: #fff;
+    --text: #000; 
+}
+body.dark-theme{
     --primary-color: #6a6a9b;
     --image: #8282b3;
     --form-button: #8282b3;
@@ -12,15 +21,6 @@
     --form-input: #424242;
     --form: #323232;
     --text: #fff;
-}
-body.dark-theme{
-    --primary-color: #cdaaf5;
-    --form-button: #cdaaf5;
-    --form-button-hover: #ab8ecc;
-    --form-input: #f7f7f7;
-    --image: #d1b5f1;
-    --form: #fff;
-    --text: #000;
 }
 body {
     background-color: var(--primary-color);
@@ -106,7 +106,6 @@ body {
 }
 .input-box input {
     background-color: var(--form-input);
-    color: ;
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
@@ -115,4 +114,25 @@ body {
 }
 .input-box input:focus-visible{
     outline: 1px solid var(--image);
+}
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 550;
+}
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+.gender-input input {
+    margin-right: 0.35rem;
+}
+.gender-input label {
+    font-size: 0.81rem;
 }

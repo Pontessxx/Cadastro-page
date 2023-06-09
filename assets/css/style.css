@@ -5,14 +5,19 @@
     font-family: 'Poppins', sans-serif;
 }
 :root {
-    --primary-color: #252525;
+    --primary-color: #0606fa4d;
     --text: #fff;
 }
 body.dark-theme{
-    --primary-color: #e6e6e6;
+    --primary-color: #0c0ce94d;
     --text: #000;
 }
 body {
     background-color: var(--primary-color);
     color: var(--text);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

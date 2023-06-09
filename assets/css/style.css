@@ -9,6 +9,7 @@
     --image: #8282b3;
     --form-button: #8282b3;
     --form-button-hover: #6565a0;
+    --form-input: #424242;
     --form: #323232;
     --text: #fff;
 }
@@ -16,6 +17,7 @@ body.dark-theme{
     --primary-color: #cdaaf5;
     --form-button: #cdaaf5;
     --form-button-hover: #ab8ecc;
+    --form-input: #f7f7f7;
     --image: #d1b5f1;
     --form: #fff;
     --text: #000;
@@ -103,9 +105,14 @@ body {
     margin-bottom: 1.1rem;
 }
 .input-box input {
+    background-color: var(--form-input);
+    color: ;
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box input:hover{
+    background-color: var();
 }

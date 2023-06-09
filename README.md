@@ -1,4 +1,5 @@
 # Página de Cadastro
+![image](https://github.com/Pontessxx/Cadastro-page/assets/126187491/184fca40-5172-46b9-9996-76e56a869a1f)
 
 Bem-vindo ao repositório da Página de Cadastro! Este repositório contém o código-fonte para uma simples página de cadastro desenvolvida usando HTML, CSS e JavaScript. 
 

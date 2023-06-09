@@ -162,7 +162,6 @@ body {
     font-weight: 500;
     color: #fff;
 }
-
 @media screen and (max-width: 1330px) {
     .form-image {
         display: none;
@@ -181,6 +180,7 @@ body {
         height: auto;
     }
     .input-group {
+        width: 100%;
         flex-direction: column;
         z-index: 5;
         padding-right: 5rem;

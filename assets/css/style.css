@@ -7,11 +7,13 @@
 :root {
     --primary-color: #6a6a9b;
     --image: #8282b3;
+    --form: #323232;
     --text: #fff;
 }
 body.dark-theme{
     --primary-color: #cdaaf5;
     --image: #d1b5f1;
+    --form: #fff;
     --text: #000;
 }
 body {
@@ -35,4 +37,17 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--image);
+    padding: 1rem;
+}
+.form-image img {
+    width: 31rem;
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--form);
+    padding: 3rem;
 }
